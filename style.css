@@ -1,4 +1,30 @@
-/*comentario*/
-/*XDXDXD*/
-/*wadwd*/
-/*drhd*/
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #020a1a; /* Fondo azul oscuro */
+    color: #000000; /* Color de texto blanco */
+}
+
+h1 {
+    color: #03da44; /* Color de texto blanco */
+}
+
+.button-container {
+    margin-top: 20px;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 18px;
+    margin: 0 10px;
+    cursor: pointer;
+    background-color: #1c2538; /* Fondo azul oscuro */
+    color: #ffffffbe; /* Texto blanco */
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #1d396d; /* Cambia el color de fondo al pasar el mouse */
+}
