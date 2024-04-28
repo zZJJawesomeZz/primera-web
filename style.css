@@ -48,3 +48,11 @@ button:hover {
     font-size: 18px; /* Tamaño de fuente */
     margin-bottom: 5px; /* Espacio en la parte inferior */
 }
+.menu-container {
+    font-size: 24px; /* Ajusta el tamaño del texto */
+}
+
+.menu-container button {
+    padding: 20px 40px; /* Ajusta el tamaño de los botones */
+    font-size: 24px; /* Ajusta el tamaño del texto de los botones */
+}
