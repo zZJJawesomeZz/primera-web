@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #020a1a; /* Cambia el color de fondo */
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 48px; /* Cambia el tamaño del título h1 */
+    color: #03da44; /* Cambia el color del título h1 */
+}
+
+h2 {
+    font-size: 36px; /* Cambia el tamaño del título h2 */
+    color: #ffffff; /* Cambia el color del título h2 */
+}
+
+button {
+    padding: 20px 40px; /* Ajusta el tamaño del botón */
+    font-size: 24px; /* Ajusta el tamaño del texto del botón */
+    margin-top: 20px; /* Agrega espacio arriba del botón */
+    background-color: #ff8c00; /* Color naranja */
+    color: #ffffff; /* Texto blanco */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ffae42; /* Cambia el color del botón al pasar el mouse */
+}
+
+.jjawesome {
+    color: #ffbd69; /* Cambia el color del texto */
+    margin-top: 50px; /* Agrega espacio arriba del texto */
+}
+

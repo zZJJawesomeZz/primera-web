@@ -28,3 +28,23 @@ button {
 button:hover {
     background-color: #1d396d; /* Cambia el color de fondo al pasar el mouse */
 }
+#texto-ingreso {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #03da44; /* Borde verde */
+    border-radius: 5px;
+    outline: none; /* Elimina el contorno al hacer foco en el campo */
+    transition: border-color 0.3s ease; /* Transición suave al cambiar el color del borde */
+    width: 300px; /* Ancho del área de texto */
+    margin: 10px auto; /* Centra el área de texto horizontalmente */
+    display: block; /* Hace que el área de texto sea un bloque */
+}
+
+#texto-ingreso:focus {
+    border-color: #1d396d; /* Cambia el color del borde al hacer foco en el campo */
+}
+#texto-ingreso-label {
+    color: #03da44; /* Cambia el color del texto a verde */
+    font-size: 18px; /* Tamaño de fuente */
+    margin-bottom: 5px; /* Espacio en la parte inferior */
+}
